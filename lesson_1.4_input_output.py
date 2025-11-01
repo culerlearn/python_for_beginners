@@ -10,7 +10,7 @@
 # Handling Numeric Input
 ###################################
 # age = input("Enter your age: ")
-# age = float(age)  # Convert string to integer
+# age = int(age)  # Convert string to integer
 # print("Next year, you will be", age + 1)
 
 
@@ -32,26 +32,28 @@
 
 # Formatting Output
 ###################################
-# print("Python", "is", "awesome", sep="-")
+# print("Python", "is", "awesome", sep=" ")
 # print("dot", "gmail.com", sep="@")
 
 # Using end to Control Line Endings
 ###################################
-# print("Hello", end=" ")
+# print("Hello", end="\n")
 # print("World!")
 
 # Use f strings for print out
-name = "Alice"
-age = 25
+# name = "Alice"
+# age = 25
 # print(f"My name is {name} and I am {age} years old.")
-
-# Use format for output
-# print("My name is {} and I am {} years old.".format(name, age))
+#
+# # Use format for output
+# template = "My name is {} and I am {} years old."
+# print(template.format(name, age))
+# print(template.format('dot', 39))
 
 # Taking Multiple Inputs
 ###################################
 #
-# name, age = input("Enter your name and age: ").split('/')
+# name, age = input("Enter your name and age: ").split('@')
 # print(f"Name: {name}, Age: {age}")
 
 name, age = input("Enter your name and age separated by a comma: ").split(",")
