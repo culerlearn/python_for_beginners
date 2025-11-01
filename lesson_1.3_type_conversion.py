@@ -12,7 +12,7 @@
 #
 # print(result)      # Output: 12.5
 # print(type(result))  # Output: <class 'float'>
-# print(type(num_int))  # Output: <class 'float'>
+# print(type(num_int))  # Output: <class 'int'>
 
 #############################
 
@@ -30,6 +30,7 @@
 # num_int = int(num_str)  # Convert to integer
 #
 # print(num_int)   # Output: 25
+# print(num_str)
 # print(type(num_int))  # Output: <class 'int'>
 # print(type(num_str))  # Output: <class 'int'>
 
@@ -59,7 +60,7 @@
 
 ## Processing User Input
 # Converting strings to numbers is useful when working with user input.
-
+#
 # age = input("Enter your age: ")  # 'input' Always returns a string
 # age = int(age)  # Convert to integer
 # print("Next year, you will be", age + 1)
@@ -68,17 +69,18 @@
 
 # ## Mathematical Calculations
 #
-price = 19.99
-discount_price = int(price) * 15 # Convert float to integer
-
-print(discount_price)
-print(type(discount_price))
+# price = 19.99
+# discount_price = int(price) * 0.75 # Convert float to integer
+#
+# print(discount_price)
+# print(type(discount_price))
 
 
 ##############################
 
 # Implicit conversion happens automatically when Python promotes a lower data type (e.g., int to float).
 # Explicit conversion requires functions like int(), float(), str(), and bool().
+
 # Converting strings to numbers is useful when working with user input.
-# Converting numbers to strings is necessary for text formatting.
+# Converting numbers to strings is necessary for text formatting - concatenation.
 # Boolean conversions help evaluate conditions in Python.
